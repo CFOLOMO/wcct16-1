@@ -9,8 +9,8 @@ class UnitTests extends \PHPUnit_Framework_TestCase{
 	/**
 	 * A single example test.
 	 */
-	function test_sample() {
+	function test_wcct16_get_option() {
 		// Replace this with some actual testing code.
-		$this->assertTrue( true );
+		$this->assertEquals('river-club', wcct16_get_option('venue'));
 	}
 }
